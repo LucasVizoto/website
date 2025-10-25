@@ -217,66 +217,28 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
+      - company: "Oticket"
+        companyUrl: "https://oticket.com.br/"
+        jobs:
+          - name: "FullStack Developer" 
+            date: "Nov 2025 - Presente" 
+            content: "Cuido do site da Oticket Play utilizando tecnologias como Express para o backend, NextJS para o Front e alguns recursos da AWS para gerenciamento na nuvem"
+            featuredItems:
+              fontAwesomeIcons:
+                - url: "https://oticketplay.com.br"
+                  icon: "fas fa-link"
+                  tooltip: "Veja o Projeto que Trabalhei"
+      - company: "Irroba E-Commerce"
+        companyUrl: "https://irroba.com.br/"
+        jobs:
+          - name: "Customer Success" 
+            date: "Jan 2025 - Nov 2025" 
+            content: "Respondo dúvidas, forneço informações sobre produtos e serviços e garanto uma experiência positiva e personalizada para usuários da plataforma. Também realizo diagnostico, resolvo problemas e oriento os usuários no uso das integrações com os módulos de ERPs e Marketplaces, corrigindo inconsistências e auxiliando na configuração para que estes funcionem corretamente. Além disso gerencio tickets de suporte, registrando, acompanhando e priorizando solicitações para cumprir os prazos.\nTambém, ofereço treinamentos para ajudar os clientes a utilizarem outras ferramentas de forma eficiente e faço coleta de feedback para propor melhorias. Por fim, há o contato direto com uma equipe de desenvolvimento para auxílio em casos que necessitam de análise de código."
+            #   fontAwesomeIcons:
+            #     - url: "https://oticketplay.com.br"
+            #       icon: "fas fa-link"
+            #       tooltip: "Veja o Projeto que Trabalhei"
+      
   # Education
   education:
     enable: true
