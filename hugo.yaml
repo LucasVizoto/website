@@ -187,6 +187,9 @@ params:
         
         - name: "JavaScript"
           icon: "devicon-javascript-plain colored"
+
+        - name: "Next.js"
+          icon: "devicon-nextjs-line-wordmark"
         
         - name: "Flask"
           icon: "devicon-flask-plain colored"
@@ -233,11 +236,40 @@ params:
         jobs:
           - name: "Customer Success" 
             date: "Jan 2025 - Nov 2025" 
-            content: "Respondo dúvidas, forneço informações sobre produtos e serviços e garanto uma experiência positiva e personalizada para usuários da plataforma. Também realizo diagnostico, resolvo problemas e oriento os usuários no uso das integrações com os módulos de ERPs e Marketplaces, corrigindo inconsistências e auxiliando na configuração para que estes funcionem corretamente. Além disso gerencio tickets de suporte, registrando, acompanhando e priorizando solicitações para cumprir os prazos.\nTambém, ofereço treinamentos para ajudar os clientes a utilizarem outras ferramentas de forma eficiente e faço coleta de feedback para propor melhorias. Por fim, há o contato direto com uma equipe de desenvolvimento para auxílio em casos que necessitam de análise de código."
-            #   fontAwesomeIcons:
-            #     - url: "https://oticketplay.com.br"
-            #       icon: "fas fa-link"
-            #       tooltip: "Veja o Projeto que Trabalhei"
+            content: |- 
+             Respondo dúvidas, forneço informações sobre produtos e serviços e garanto uma experiência 
+             positiva e personalizada para usuários da plataforma. Também realizo diagnostico, resolvo
+             problemas e oriento os usuários no uso das integrações com os módulos de ERPs e Marketplaces, 
+             corrigindo inconsistências e auxiliando na configuração para que estes funcionem corretamente. 
+             Além disso gerencio tickets de suporte, registrando, acompanhando e priorizando solicitações para cumprir os prazos.
+             Também, ofereço treinamentos para ajudar os clientes a utilizarem outras ferramentas de forma eficiente e faço coleta 
+             de feedback para propor melhorias. Por fim, há o contato direto com uma equipe de desenvolvimento para auxílio em casos que necessitam de análise de código."
+            
+          #   fontAwesomeIcons:
+          #     - url: "https://oticketplay.com.br"
+          #       icon: "fas fa-link"
+          #       tooltip: "Veja o Projeto que Trabalhei"
+      - company: "Servtec Telecom"
+        companyUrl: "https://www.servtectelecom.com.br/"
+        jobs:
+          - name: "Técnido de Rede e Telecomunicações" 
+            date: "Jan 2024 - Jan 2025" 
+            content: |-
+             Realizei manutenção e diagnóstico de problemas em sistemas de: 
+             • Telecomunicação (PABX, VoIP e Asterik).
+             • CFTV, abrangendo um pouco mais sobre a parte de instalação de câmeras de segurança e alarmes. 
+             • Redes, realizando configuração de roteadores e montagem de rede estruturada.
+      - company: "Uni-FACEF Júnior"
+        companyUrl: 
+        jobs:
+          - name: "Gerente de Projetos" 
+            date: "Mai 2023 - Mai 2024" 
+            content: |-
+             
+          - name: "Líder de Indicadores" 
+            date: "Fev 2023 - Dez 2023" 
+            content: |-
+             
       
   # Education
   education:
